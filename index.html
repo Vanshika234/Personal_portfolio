@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshika - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style:none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color: white;
+        
+        }
+        nav ul li a:hover{
+            
+            color: rgb(110, 110, 224);
+            font-size: 1.04rem ;
+        
+        }
+        main hr{
+            border: 0;
+            background-color: #9894ec;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center ;
+            margin: 130px 0;
+        }
+        .leftSection {
+            
+            font-size: 2rem;
+            /* margin: 70px, 0; */
+           
+        }
+        .leftSection .button{
+            padding: 23px;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border-radius: 3px solid white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+      
+        .rightSection{
+        
+        }
+        .purple{
+            color: #9937ea;
+        }
+        .text-gray{
+            color: grey;
+        }
+        #element{
+            color: #9937ea;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto ;
+            height: 80vh ;
+        }
+        .secondSection h1{
+            max-width: 80vw;
+            font-size: 1.9rem ;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white ;
+            margin: 0 100px;
+        }
+        .image-top{
+            width: 32px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            width: 150px;
+            position: relative;
+            top: 75px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: #0e0e1a;
+            /* height: 233px; */
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly ;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vanshiks's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Serices</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"> 
+                Hi, My Name is <span class="purple">Vanshika</span> 
+                
+                <div> and I m a passionate </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element" ></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg " alt="">
+            </div>
+        </section>
+<hr>
+         <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+             
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        Python  2021
+                    </div>
+                    <div class="vertical-desc">
+                        A Python developer is a professional who specializes in writing server-side web application logic using the Python programming language. They often work on the back-end components of applications, connect the application with third-party web services, and support the front-end developers by integrating their work with the Python application.
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-text">
+                            HTML,CSS 2021
+                        </div>
+                        <div class="vertical-desc">
+                            HTML/CSS developer, often referred to as a front-end developer, specializes in building the visual and interactive aspects of websites and web applications using HTML (HyperText Markup Language) and CSS (Cascading Style Sheets). They ensure that the user interface is functional, aesthetically pleasing, and accessible across various devices and browsers.
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="vertical">
+                            <img class="image-top" src="developer.png" alt="">
+                            <div class="vertical-text">
+                                JavaScript 2022
+                            </div>
+                            <div class="vertical-desc">
+                                A JavaScript developer specializes in writing code using JavaScript, one of the most popular and versatile programming languages for web development. JavaScript developers focus on enhancing user interfaces, adding interactivity to web pages, and building complex web applications. They work on both front-end and back-end development, depending on their specialization.
+                            </div>
+                            <!-- <div class="vertical-desc">
+                                Node.js Developer (2023-2024)
+                        </div> -->
+                
+                <!-- <div class="vertical">
+                    Node.js Developer (2023-2024)
+                    
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer"></div>
+             <div class="-footerfirst">
+                <h3>Vanshika's Develope Portfolio</h3>
+             </div>
+             <div class="-footerSecond">
+             <!-- <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+             </ul>
+            </div> -->
+             <div class="-footerThird">
+             <!-- <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+             </ul>
+             </div> -->
+             <div class="-footerfourth">
+             <!-- <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Service</li>
+             </ul>
+            </div> -->
+            <div class="footer-rights">
+              Copyright &#169; vanshikaportfolio.com | All right reversed
+
+            </div>
+
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+         <!-- setup and start animation -->
+     <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', '&amp; Software Develpoer.','Web Designer','Graphic Designer'],
+            typeSpeed: 50
+        });
+     </script>
+</body>
+</html>
